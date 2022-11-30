@@ -1,0 +1,27 @@
+.input-group{
+    display: inline-block;
+    position: relative;
+}
+
+.input-group input{
+    border: 1px solid rgb(56, 56, 56);
+    padding: 0.5rem 2rem 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.input-group input:focus{
+    outline: 1px solid red;
+    border: 1px solid red;
+}
+
+.input-group i{
+    position: absolute;
+    right: 10px;
+    top:5px;
+    /* 
+    kesin bir top degeri yazmak yerine
+    top:50% daha iyi olur ama transform kullanmak gerekir
+    */
+    font-size: 1.3rem;
+}
+
