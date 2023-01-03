@@ -1,14 +1,18 @@
 .menu:hover ul{
-    display: block;
+    display: inline-block;
+    background-color: red;
 }
 .menu ul{
     display: none;
+    background-color: aqua;
 }
 
 .menu button{
     display: block;
+    background-color: yellow;
 }
 
 .menu{
     display: inline-block;
+    background-color: blue;
 }

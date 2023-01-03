@@ -1,7 +1,4 @@
-.btn-mode:hover + .content{
-    background-color: black;
-    color: white;
-}
+
 .chk-mode{
     display: none;
 }

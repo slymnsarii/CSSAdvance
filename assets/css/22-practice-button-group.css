@@ -28,5 +28,5 @@
 .button-group button:hover{
     background-color: var(--color1);
     color: var(--color2);
-    border: var(--color2);
+    border-color: var(--color2);
 }
